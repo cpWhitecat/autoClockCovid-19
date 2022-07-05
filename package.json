@@ -1,0 +1,23 @@
+{
+  "name": "autoclockcovid-19",
+  "version": "1.0.0",
+  "description": "小工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpWhitecat/autoClockCovid-19.git"
+  },
+  "author": "cpWhitecat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpWhitecat/autoClockCovid-19/issues"
+  },
+  "homepage": "https://github.com/cpWhitecat/autoClockCovid-19#readme",
+  "dependencies": {
+    "node-gyp": "^5.0.7",
+    "robotjs": "^0.6.0"
+  }
+}
