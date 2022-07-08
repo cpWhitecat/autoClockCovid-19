@@ -24,10 +24,13 @@ const time = new Date;
         robot.mouseClick();
 
         await display(2000);
-        robot.scrollMouse(0,500);
+        robot.moveMouse(1258,142);
 
         await display(2000);
-        robot.moveMouse(964);
+        robot.mouseClick();
+
+        await display(2000);
+        robot.moveMouse(964,804);
 
         await display(2000);
         robot.mouseClick()
