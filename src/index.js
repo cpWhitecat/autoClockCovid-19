@@ -33,6 +33,10 @@ const time = new Date;
         robot.moveMouse(964,804);
 
         await display(2000);
-        robot.mouseClick()
+        robot.mouseClick();
+
+
+
+        // this is a test
     })()
 
