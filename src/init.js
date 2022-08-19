@@ -3,7 +3,7 @@ const {date} = require('./meta');
 const EventEmitter = require('events');
 
 class events extends EventEmitter {
-    
+
 }
 
 const newArr = [];
@@ -14,5 +14,5 @@ for (const iterator of date) {
 
 
 
-var mouse = robot.getMousePos();
+var mouse = robot.mouseClick();
 console.log("Mouse is at x:" + mouse.x + " y:" + mouse.y)
